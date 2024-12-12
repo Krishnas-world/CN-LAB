@@ -30,7 +30,6 @@ class RSA {
 
         System.out.println("\nSelect e value:");
         e = s.nextInt();
-
         System.out.printf("Enter message : ");
         msg1 = br.readLine();
         char msg[] = msg1.toCharArray();
